@@ -773,6 +773,10 @@ footer section {
 
 @media (max-width: 768px) {
 
+    .container-md{
+        width: 80vw;
+    }
+
     .nav-mobile {
         display: block;
     }
@@ -851,8 +855,8 @@ footer section {
     }
 
     .icons-wrapper .icon img {
-        height: auto;
-        width: 100%;
+        height: 100%;
+        width: 67%;
     }
 
     .promo-card {
