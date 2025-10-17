@@ -139,16 +139,11 @@ button {
     border: none;
 }
 
-.nav-buttons .btn-login:hover {
-    background-color: #eee;
-}
-
 .nav-mobile {
     display: none;
 }
 
 /* HERO SECTION*/
-
 .hero {
     text-align: center;
     margin: 6rem 0;
@@ -342,6 +337,10 @@ section .section-title {
     gap: 5px;
 }
 
+.meeting-space p span {
+    color: var(--gray);
+}
+
 .meeting-space p span img {
     max-width: 16px;
 }
@@ -413,7 +412,7 @@ section .section-title {
 }
 
 .knowledge ul.sponsors {
-    border-radius: 4px;
+    background-color: white;
 }
 
 /* SECTION - INTEGRATIONS */
@@ -581,7 +580,6 @@ section .section-title {
     font-size: 2rem;
 }
 
-
 .promo-card-details .fa-circle-check::before {
     color: var(--blue);
 }
@@ -611,6 +609,10 @@ footer section {
     color: var(--white);
 }
 
+.footer-content a {
+    color: var(--white);
+}
+
 .footer-content ul {
     display: flex;
     flex-direction: column;
@@ -635,6 +637,35 @@ footer section {
 .footer-copyright img {
     width: 10rem;
     filter: invert(100%);
+}
+
+/* HOVERS */
+.promo-buttons button.btn-sign:hover,
+.nav-buttons .btn-sign:hover,
+.hero-buttons .btn-try:hover,
+.promo-buttons button.btn-sign:hover {
+    transform: scale(1.1);
+    color: var(--black);
+}
+
+.nav-buttons .btn-login:hover,
+.hero-buttons .btn-book:hover,
+.promo-buttons button.btn-book:hover {
+    background-color: #dce3ff;
+    color: var(--blue);
+    transform: scale(1.1);
+}
+
+.section-text nav a:hover {
+    color: var(--blue);
+}
+
+.nav-links a:hover {
+    color: var(--blue);
+}
+
+.footer-content li a:hover{
+    text-decoration: underline;
 }
 
 /* BREAKPOINTS */
