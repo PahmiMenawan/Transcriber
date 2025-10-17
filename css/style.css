@@ -39,6 +39,12 @@ html {
 }
 
 /* GLOBAL STYLE */
+
+hr{
+    margin: 5rem 0;
+    border-top: 1px solid #b4b4b4b8;
+}
+
 h1,
 h2,
 h3,
@@ -477,6 +483,9 @@ section .section-title {
 }
 
 /* SECTION - FAQ */
+#faq{
+    margin-top: 10rem;
+}
 .faq {
     text-align: center;
 }
@@ -507,7 +516,7 @@ section .section-title {
 /* SECTION - PROMO CARD */
 
 .gap {
-    height: 15rem;
+    height: 20rem;
 }
 
 .promo-card {
@@ -520,7 +529,7 @@ section .section-title {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.089);
     position: absolute;
     z-index: 1;
-    top: -10rem;
+    top: -13rem;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -666,6 +675,10 @@ footer section {
 
 .footer-content li a:hover{
     text-decoration: underline;
+}
+
+.section-button:hover{
+    transform: scale(1.1);
 }
 
 /* BREAKPOINTS */
