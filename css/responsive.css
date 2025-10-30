@@ -1,0 +1,223 @@
+/* BREAKPOINTS */
+@media (max-width: 1200px) {
+    .promo-card {
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        padding: 2.5rem;
+        justify-content: space-between;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.089);
+        position: absolute;
+        z-index: 1;
+        top: -13rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .promo-card .promo-card-intro {
+        display: flex;
+        flex-direction: column;
+        width: 28rem;
+    }
+
+    .promo-card .promo-card-intro img {
+        max-width: 8rem;
+    }
+
+    .promo-card-intro .section-title {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .promo-card-intro .section-desc {
+        margin: 1rem 0;
+        color: var(--black);
+    }
+
+    .promo-card-intro .promo-buttons {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .promo-buttons button {
+        padding: 1rem 1.5rem;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        font-weight: 600;
+    }
+
+    .promo-buttons button.btn-sign {
+        background-image: var(--gradient-btn);
+        color: var(--white);
+    }
+
+    .promo-buttons button.btn-book {
+        background-color: #fff;
+        color: var(--black);
+        border: 2px solid #eee;
+    }
+
+    .promo-card-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .promo-card-details h3 {
+        font-size: 1.5rem;
+    }
+
+
+    .promo-card-details .fa-circle-check::before {
+        color: var(--blue);
+    }
+
+    .promo-card-details li {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        gap: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-copyright {
+        gap: 2rem;
+    }
+
+    .gap {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container-md {
+        width: 80vw;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+
+    .nav-links,
+    .nav-buttons {
+        display: none;
+    }
+
+    .section-text {
+        padding: 0;
+    }
+
+    .knowledge .sponsors,
+    .knowledge .sponsors li {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .knowledge ul.sponsors {
+        border-radius: 8px;
+        border: 1px solid #eee;
+    }
+
+    .knowledge .sponsors li {
+        padding: 1.5rem 2rem;
+        width: 100%;
+        border: 1px solid #eee;
+    }
+
+    .icons-wrapper .icon {
+        background-color: #fff;
+        border-radius: 12px;
+        border: 1px solid #eee;
+        padding: 1rem 3rem;
+        height: 90px;
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .icons-wrapper .icon {
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 11px;
+    }
+
+    body {
+        padding-top: 2rem;
+    }
+
+    /* FOOTER */
+    .footer-content {
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+
+    .integrations .section-images .image-header {
+        padding: 2rem;
+    }
+
+
+}
+
+@media(max-width: 500px) {
+
+    .ai-teammate .section-images .base,
+    .ai-teammate .section-images .overlay {
+        gap: 3rem;
+    }
+
+    .icons-wrapper .icon img {
+        height: 100%;
+        width: 67%;
+    }
+
+    .promo-card {
+        gap: 2rem;
+        top: -17rem;
+    }
+
+    .promo-card-intro .promo-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promo-card-intro .promo-buttons button {
+        font-size: 1rem;
+    }
+
+    .knowledge .section-images img:nth-child(1) {
+        transform: translateY(30%) scale(.8);
+        filter: opacity(.3);
+    }
+
+    .knowledge .section-images img:nth-child(2) {
+        transform: translateY(38%) scale(.9);
+        filter: opacity(.5);
+    }
+
+    .knowledge .section-images img:nth-child(3) {
+        transform: translateY(46%) scale(1);
+    }
+
+    .gap {
+        height: 20rem;
+    }
+}

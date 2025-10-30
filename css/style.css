@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    transition: .3s;
     font-family: "Inter", sans-serif;
 }
 
@@ -67,6 +66,7 @@ body {
 
 a {
     text-decoration: none;
+    transition: .3s;
 }
 
 li {
@@ -79,6 +79,7 @@ ul.fa-ul {
 
 button {
     cursor: pointer;
+    transition: .3s;
 }
 
 .container {
@@ -402,7 +403,6 @@ section .section-title {
     transform: translateY(46%) scale(1.5);
 }
 
-/* JOB'S NOT DONE */
 .knowledge .sponsors,
 .knowledge .sponsors li {
     display: flex;
@@ -898,5 +898,8 @@ footer section {
 
     .knowledge .section-images img:nth-child(3) {
         transform: translateY(46%) scale(1);
+    }
+    .gap {
+        height: 20rem;
     }
 }
