@@ -18,7 +18,7 @@
     .promo-card .promo-card-intro {
         display: flex;
         flex-direction: column;
-        width: 28rem;
+        width: 100%;
     }
 
     .promo-card .promo-card-intro img {
@@ -33,11 +33,6 @@
     .promo-card-intro .section-desc {
         margin: 1rem 0;
         color: var(--black);
-    }
-
-    .promo-card-intro .promo-buttons {
-        display: flex;
-        gap: 1rem;
     }
 
     .promo-buttons button {
@@ -153,11 +148,19 @@
     .icons-wrapper .icon {
         padding: 0;
     }
+
+    .promo-card-intro .promo-buttons {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 576px) {
     html {
         font-size: 12px;
+    }
+
+    .section-desc {
+        font-size: 14px;
     }
 
     body {
@@ -190,8 +193,8 @@
     }
 
     .promo-card {
-        gap: 2rem;
-        top: -17rem;
+        flex-direction: column;
+        top: -22rem;
     }
 
     .promo-card-intro .promo-buttons {
@@ -218,6 +221,6 @@
     }
 
     .gap {
-        height: 20rem;
+        height: 23rem;
     }
 }

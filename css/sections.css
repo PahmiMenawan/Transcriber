@@ -169,11 +169,14 @@ section .section-title {
 .knowledge .sponsors li {
     padding: 1.5rem 2rem;
     width: 100%;
-    border: 1px solid #eee;
+    border-left: 1px solid #eee;
 }
 
 .knowledge ul.sponsors {
     background-color: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 /* SECTION - INTEGRATIONS */
@@ -238,9 +241,10 @@ section .section-title {
 }
 
 /* SECTION - FAQ */
-#faq{
+#faq {
     margin-top: 10rem;
 }
+
 .faq {
     text-align: center;
 }
@@ -428,10 +432,10 @@ footer section {
     color: var(--blue);
 }
 
-.footer-content li a:hover{
+.footer-content li a:hover {
     text-decoration: underline;
 }
 
-.section-button:hover{
+.section-button:hover {
     transform: scale(1.1);
 }
